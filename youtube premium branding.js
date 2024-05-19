@@ -5,6 +5,8 @@
 // @description  when you're broke so you resort in using javascript to "get" youtube premium
 // @author       John Patrick Adem
 // @match        *://*.youtube.com/*
+// @downloadURL  https://raw.githubusercontent.com/jpa102/FakeYTPremiumBranding/main/youtube%20premium%20branding.js
+// @updateURL    https://raw.githubusercontent.com/jpa102/FakeYTPremiumBranding/main/youtube%20premium%20branding.js
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=youtube.com
 // @run-at        document_end
 // ==/UserScript==
