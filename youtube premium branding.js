@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YouTube Premium branding
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      2.0
 // @description  when you're broke so you resort in using javascript to "get" youtube premium
 // @author       John Patrick Adem
 // @match        *://*.youtube.com/*
@@ -14,6 +14,16 @@
 // script settings 「スクリプトの設定」
 let waitTimeMs = 5000; // default wait time is 5 seconds (in milliseconds)
 let ExperimentalTest = true; // some pages still return the old html structure, so i'll leave this setting here
+
+// fix source: https://www.reddit.com/r/GoogleAppsScript/comments/185tw8f/comment/kb4t2o4/
+// youtube seems to be restrictive now, urban dictionary doesn't behave like this
+if (window.trustedTypes && window.trustedTypes.createPolicy) {
+	window.trustedTypes.createPolicy('default', {
+		createHTML: string => string,
+		createScriptURL: string => string,
+		createScript: string => string,
+	});
+}
 
 // ================================= MAIN =================================
 
