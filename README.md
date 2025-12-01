@@ -18,3 +18,8 @@ this userscript **DOES NOT** give you YouTube Premium features, it only **replac
 you really need to be a **"hackerman"** in order to get yourself youtube premium
 
 the "closest" you can get in having one of premium features is *no ads* by using [ublock origin](https://github.com/gorhill/uBlock) browser extension
+
+***
+i randomly discovered this gist on google search while searching for certain youtube html css selectors, check it out! https://gist.github.com/barraIhsan/bc901bc9c3604749d48361d23a094d29
+
+their code is miles better than mine, go support them!
