@@ -1,9 +1,12 @@
 // ==UserScript==
 // @name         youtube premium branding 「プレミアム」
 // @namespace    http://tampermonkey.net/
-// @version      3.0
+// @version      4.0
 // @description  you poor? here, take my userscript and use it!
 // @author       John Patrick Adem
+// @license      Unlicense
+// @downloadURL  https://raw.githubusercontent.com/jpa102/FakeYTPremiumBranding/main/youtube%20premium%20branding.js
+// @updateURL    https://raw.githubusercontent.com/jpa102/FakeYTPremiumBranding/main/youtube%20premium%20branding.js
 // @match        *://*.youtube.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=youtube.com
 // @grant        GM.xmlHttpRequest
@@ -13,9 +16,9 @@
 // ==/UserScript==
 
 // script settings 「スクリプトの設定」
-let waitTimeMs = 5500; //               default wait time is 5.5 seconds (in milliseconds)
+let waitTimeMs = 3000; //               default wait time is 3 seconds (in milliseconds)
 let ExperimentalTest = true; //         some pages still return the old html structure, so i'll leave this setting here
-let ytringo2red = true; //             youtube icon color but in "red ringo2" style (the youtube magenta update)
+let ytringo2red = true; //              youtube icon color but in "red ringo2" style (the youtube magenta update)
 
 // ================================= MAIN =================================
 
